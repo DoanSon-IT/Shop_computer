@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 19, 2024, 2:31:23 PM
+    Author     : hc
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../img/login1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.auth-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form {
+    width: 300px;
+    text-align: center; 
+}
+
+.auth-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.form-group.remember-me input {
+    margin-right: 10px;
+}
+
+.forgot-password {
+    text-align: right;
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.auth-button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-button:hover {
+    background: #0056b3;
+}
+
+.switch-form {
+    margin-top: 20px;
+}
+
+.switch-form p {
+    margin: 0;
+}
+
+.switch-form a {
+    color: #007BFF;
+    text-decoration: none;
+}

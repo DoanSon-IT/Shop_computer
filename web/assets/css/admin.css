@@ -1,0 +1,45 @@
+.sidebar {
+            width: 300px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #f8f9fa;
+            transition: all 0.3s;
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        .content {
+            margin-left: 400px;
+            padding: 20px;
+        }
+        .navbar {
+            z-index: 1;
+        }
+        .nav-item .nav-link {
+            color: #333;
+            font-weight: 500;
+            transition: background 0.3s, color 0.3s;
+        }
+        .nav-item .nav-link:hover, .nav-item .nav-link.active {
+            background: #007bff;
+            color: #fff;
+        }
+        .nav-item .nav-link i {
+            margin-right: 10px;
+        }
+        .product-image {
+            width: 100px; /* Set a fixed width for the images */
+            height: auto; /* Maintain the aspect ratio */
+        }
+        .table thead th {
+            background-color: #e9ecef;
+        }
+        .btn-sm a {
+            color: white;
+            text-decoration: none;
+        }
+        .btn-sm a:hover {
+            color: white;
+            text-decoration: none;
+        }

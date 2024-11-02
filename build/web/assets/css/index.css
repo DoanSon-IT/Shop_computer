@@ -1,0 +1,209 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 1, 2024, 11:01:35 PM
+    Author     : hc
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #444;
+}
+
+.header-top p {
+    margin: 0;
+}
+
+.header-links a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.logo-highlight {
+    color: #FFD700;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #FFD700;
+    border: none;
+    cursor: pointer;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.banner-content h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 18px;
+}
+
+.banner-content button {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    border: none;
+    cursor: pointer;
+}
+
+.news, .products {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.news h3, .products h3 {
+    font-size: 24px;
+    border-bottom: 2px solid #FFD700;
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-card {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.news-card h4 {
+    margin: 0 0 10px 0;
+}
+
+.product-filters {
+    float: left;
+    width: 20%;
+}
+
+.product-filters ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-filters li {
+    margin-bottom: 10px;
+}
+
+.product-filters a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-grid {
+    float: right;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h4 {
+    margin: 10px 0;
+}
+
+.price {
+    color: red;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

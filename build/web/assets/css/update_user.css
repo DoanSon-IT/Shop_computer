@@ -1,0 +1,61 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 18, 2024, 11:22:14 PM
+    Author     : hc
+*/
+
+
+/* Custom styles for the form */
+body {
+    background-color: #f8f9fa; /* Màu nền */
+}
+.container {
+    max-width: 500px;
+    background-color: #ffffff; /* Màu nền form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Hiệu ứng bóng */
+    margin-top: 50px;
+}
+.container h2 {
+    color: #007bff; /* Màu tiêu đề */
+}
+.form-group label {
+    font-weight: bold;
+    color: #343a40; /* Màu label */
+}
+.form-control {
+    border-radius: 10px;
+    border-color: #ced4da; /* Màu viền input */
+}
+.btn-primary {
+    border-radius: 10px;
+    background-color: #007bff; /* Màu nút */
+    border-color: #007bff; /* Màu viền nút */
+}
+.btn-primary:hover {
+    background-color: #0056b3; /* Màu nút hover */
+    border-color: #0056b3; /* Màu viền nút hover */
+}
+.btn-secondary {
+    border-radius: 10px;
+    background-color: #6c757d; /* Màu nút Cancel */
+    border-color: #6c757d; /* Màu viền nút Cancel */
+}
+.btn-secondary:hover {
+    background-color: #5a6268; /* Màu nút Cancel hover */
+    border-color: #545b62; /* Màu viền nút Cancel hover */
+}
+.password-toggle {
+    position: relative;
+}
+.password-toggle .toggle-password {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

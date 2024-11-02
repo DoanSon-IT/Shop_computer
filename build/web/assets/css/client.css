@@ -1,0 +1,49 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 9, 2024, 9:06:06 PM
+    Author     : hc
+*/
+.navbar-brand img {
+    max-height: 50px;
+}
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 15px;
+}
+.product-card {
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.section-title {
+    margin: 20px 0;
+}
+.promo-banner img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.hidden {
+    display: none;
+}
+.toggle-button {
+    display: flex;
+    align-items: center;
+}
+
