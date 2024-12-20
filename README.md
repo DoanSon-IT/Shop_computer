@@ -6,5 +6,6 @@ Java servlet + JSP + MySQL <br>
 <br>
 Bài tập lớn<br>
 Nhóm gồm 03 thành viên<br>
-Vai trò: Front-end, Back-end trang người dùng (Tìm kiếm sản phẩm, Xem thông tin cá nhân, Cập nhật thông tin cá nhân, Đặt hàng...)<br>
+Vai trò: Đăng nhập, đăng ký, Thiết kế cơ sở dữ liệu, xây dựng chức năng tìm kiếm, xem hồ sơ người dùng
+
 - Phân tích thiết kế hệ thống
